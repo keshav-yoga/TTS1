@@ -1,0 +1,29 @@
+
+# Core
+torch==2.2.2
+torchaudio==2.2.2
+transformers==4.41.0
+
+# Text processing
+gruut==2.3.0
+phonemizer==3.2.1
+langdetect==1.0.9
+
+# TTS models
+coqui-tts==0.22.0
+styletts2==0.5.0
+chattts==0.3.4
+openvoiceplus==0.2.1
+
+# Vocoder
+bigvgan-pytorch==0.1.4
+soundfile==0.12.1
+
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+
+# Utils
+numpy==1.26.4
+scipy==1.13.0
+tqdm==4.66.4
